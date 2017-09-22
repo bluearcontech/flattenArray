@@ -1,0 +1,4 @@
+# flattenArray
+
+## Testing
+``npm test``
