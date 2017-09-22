@@ -9,7 +9,7 @@ describe("Flatten an Array of Arbitrarily nested Arrays of Integers into a Flat 
   it("Should return an empty array when undefined value provided", function() {
       expect(flatten([undefined])).toEqual([]);
   });
-  it("Should return an empty array when undefined value provided", function() {
+  it("Should return an array with one value when undefined value provided in an array", function() {
       expect(flatten([3, undefined])).toEqual([3]);
   });
 
