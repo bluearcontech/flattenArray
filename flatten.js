@@ -18,5 +18,5 @@ function flatten(input) {
     }
     return out;
 }
-
+//test
 module.exports = flatten;
